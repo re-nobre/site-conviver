@@ -41,7 +41,10 @@ em{
 .titulos{
   float: left;
   font-family: 'LatoOFLBla';
-  margin-top: 170px;
+}
+
+#logo{
+  width:350px;
 }
 
 .doacao{
