@@ -1,30 +1,9 @@
 body {
   margin: 0;
   width: 100%;
-}
-
-header {
-  background:url(../img/img-net.jpg)no-repeat center center;
-  width: 100%;
-  height: 550px;
-  padding-top: 10px;
-  text-align: center;
-}
-
-h1{
-  font-size: 72px;
-  padding: 20px;
-  color: #2980b9;
-}
-
-h2{
-  font-size: 24px;
-  color: #2980b9;
-}
-
-em{
-  color: #2980b9;
-  font-weight: bold;
+  font-size: 18px;
+  color: #52565C;
+  font-family:'LatoOFL';
 }
 
 .grid{
@@ -32,130 +11,132 @@ em{
   margin: 0 auto;
 }
 
-@media:ipad{
-  .grid{
-    width:1170px;
-  }
+h1{font-size: 72px;}
+h2{font-size: 50px;}
+
+p{
+  line-height: 27px;
 }
 
-.titulos{
-  float: left;
-  font-family: 'LatoOFLBla';
+/*************
+ *  HEADER   *
+ *************/
+header {
+  background:url(../img/img-net.jpg)no-repeat center center;
+  width: 100%;
+  height: 550px;
+  padding-top: 10px;
+  text-align: center;
+  color: #2980b9;
 }
 
 #logo{
   width:350px;
 }
 
-.doacao{
+.titles{
+  float: left;
+  font-family: 'LatoOFLBla';
+}
+
+.titles p{font-size: 24px;}
+
+.btn{
   background-color: #2980b9;
+  color:#ecf0f1;
+  font-size: 20px;
+  text-align: center;
   float: right;
   height: 60px;
+  line-height: 60px;
   width: 240px;
   margin-top: 30px;
   border-radius: 5px;
-  font-family: 'LatoOFL';
 }
 
-.doacao p {
-  font-size: 20px;
-  color:#ecf0f1;
-  text-align: center;
-  margin-top: 20px;
+/***************
+ *   SECTIONS  *
+ ***************/
+section{
+  padding: 50px 0;
 }
 
-.section-azul{
+section.blue{
   background-color:#2980b9;
-}
-
-.section-azul h2,
-.section-azul p{
   color: #ecf0f1;
 }
 
+section.white h2, section.white h3{
+  color: #2980b9;
+}
+
+/***************
+ *     MENU    *
+ ***************/
 .menu{
-  background-color:#2980b9;
   width: 100%;
-  height: 100px;
-  font-family: 'LatoOFL';
 }
 
-.menu-opcoes{
-  padding-top:35px;
-}
-
-.menu-opcoes li{
+.menu li{
   display: inline;
   margin-left: 150px;
 }
 
-.menu-opcoes li a{
-  color:  #ecf0f1;
+.menu li a{
   text-decoration: none;
+  color: #ecf0f1;
   font-size: 24px;
 }
 
-.texto{
-  padding-top: 60px;
+/***************
+ *   CONTENT   *
+ ***************/
+
+.text h2{
   padding-bottom: 50px;
 }
 
-.texto h2{
-  font-size: 50px;
-  padding-bottom: 50px;
-}
-
-.texto h3{
+.text h3{
   font-size: 30px;
-  color: #2980b9;
   padding-bottom: 5px;
   padding-top: 20px;
 }
 
-.texto p{
-  font-family: 'Bariol_Regular';
-  font-size: 18px;
-  padding-top: 15px;
-  padding-bottom: 10px;
+.text p{
+  padding-top: 20px;
   letter-spacing: 1px;
 }
 
-@font-face {
-  font-family: 'AleoRegular';
-  src: url('../fonts/Aleo/Webfont/Aleo_Regular/aleo-regular-webfont.eot');
-  src: url('../fonts/Aleo/Webfont/Aleo_Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Aleo/Webfont/Aleo_Regular/aleo-regular-webfont.woff') format('woff'),
-  url('../fonts/Aleo/Webfont/Aleo_Regular/aleo-regular-webfont.ttf') format('truetype'),
-  url('../fonts/Aleo/Webfont/Aleo_Regular/aleo-regular-webfont.svg#AleoRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+em{
+  color: #2980b9;
+  font-weight: bold;
 }
 
-@font-face {
-  font-family: 'AleoLight';
-  src: url('../fonts/Aleo/Webfont/Aleo_Light/aleo-light-webfont.eot');
-  src: url('../fonts/Aleo/Webfont/Aleo_Light/aleo-light-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Aleo/Webfont/Aleo_Light/aleo-light-webfont.woff') format('woff'),
-  url('../fonts/Aleo/Webfont/Aleo_Light/aleo-light-webfont.ttf') format('truetype'),
-  url('../fonts/Aleo/Webfont/Aleo_Light/aleo-light-webfont.svg#AleoRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+.colaboration-type{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-@font-face {
-  font-family: 'Bariol_Regular';
-  src: url('../fonts/Bariol_Regular/Bariol_Regular.otf');
-  font-weight: normal;
-  font-style: normal;
+.colaboration-type h3{
+  text-align: center;
 }
 
-@font-face {
-  font-family: 'Caviar_Dreams';
-  src: url('../fonts/Caviar_Dreams/CaviarDreams.ttf');
-  font-weight: normal;
-  font-style: normal;
+.colaboration-type img{
+  margin: auto;
+  display: block;
 }
 
+.colaboration-type + .colaboration-type{
+  margin-left: 12%;
+}
+
+
+/**********************
+ *      Fontes        *
+ **********************/
 @font-face {
   font-family: 'LatoOFL';
   src: url('../fonts/LatoOFL/OTF/Lato-Reg.otf');
