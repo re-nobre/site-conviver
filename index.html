@@ -25,18 +25,19 @@
     </header>
 
     <section class="blue">
-      <nav class="menu">
-        <ul>
-          <li><a href="#quem-somos" alt="Quem somos">Quem Somos</a></li>
-          <li><a href="#na-midia" alt="Conviver na Midia">Conviver na Midia</a></li>
-          <li><a href="#como-colaborar" alt="Como colaborar">Como Colaborar</a></li>
-          <li><a href="#contato" alt="Contato">Contato</a></li>
-        </ul>
-      </nav>
+      <div class= "grid">
+        <nav class="menu">
+          <ul>
+            <li><a href="#quem-somos" alt="Quem somos">Quem Somos</a></li>
+            <li><a href="#como-colaborar" alt="Como colaborar">Como Colaborar</a></li>
+            <li><a href="#contato" alt="Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </section>
 
     <section class="white">
-      <div class="grid text">
+      <div class="grid text" id="quem-somos">
         <h2>Quem somos</h2>
         <p>Fundado em  01/08/2001, o <em>GRUPO CONVIVER - Associação dos Deficientes Visuais de Alfenas</em> é uma Sociedade Civil, sem fins lucrativos, com título de utilidade pública. Presta assistência a pessoas com deficiência visual - cegos e baixa visão - na faixa etária de 03 a 93 anos.</p>
 
@@ -50,47 +51,68 @@
       </div>
     </section>
 
-    <section class="blue" >
-      <div class="grid text">
-        <h2>Na mídia</h2>
-      </div>
+    <section class="image" >
+      <img src="img/img-net.jpg"/>
     </section>
 
     <section class="white">
-      <div class="grid text">
+      <div class="grid text" id="como-colaborar">
         <h2>Como colaborar</h2>
 
         <div class="colaboration-type">
-          <img src="img/iconmonstr-user-14-icon-64.png"/>
+          <img src="img/icon-people-blue.png"/>
           <h3>Voluntário</h3>
-          <p>Você tem tempo disponível e gostaria de colaborar com nossa associação?</p>
-          <p>Entre em contato conosco ou faça nos uma visita.</p>
+          <p>Tem tempo disponível e quer colaborar com nossa associação?</p>
+          <p>Entre em <a href="#contato" alt="Entre em contato">contato</a> conosco ou faça nos uma visita.</p>
         </div>
 
         <div class="colaboration-type">
           <img src="img/icon-calendar-blue.png"/>
           <h3>Mensalista</h3>
-          <p>Você gostaria de contribuir financeiramente conosco todo mês?</p>
-          <p>Entre em contato conosco que combinaremos o melhor dia.</p>
+          <p>Gostaria de contribuir financeiramente todo mês?</p>
+          <p>Entre em <a href="#contato" alt="Entre em contato">contato</a> conosco que combinaremos o melhor dia.</p>
         </div>
 
         <div class="colaboration-type">
           <img src="img/icon-cash-blue.png"/>
           <h3>Doe agora</h3>
-          <p>Você gostaria de contribuir financeiramente conosco já neste momento?</p>
-          <p> Não perca tempo! <br/> Clique aqui e doe agora!</p>
+          <p>Gostaria de contribuir financeiramente agora?</p>
+          <p> Não perca tempo! <br/><a href="#" alt="Doe agora">Clique aqui</a> e doe agora!</p>
         </div>
 
       </div>
     </section>
 
     <section class="blue">
-      <div class="grid text">
-        <h2>Contato</h2>
-        <p> Endereço: Rua Antônio Pedro de Oliveira, 1020. Vila Betânia. Alfenas - MG</p>
-        <p> Telefone: (35) 9214 - 8084</p>
-        <p> Email: conviver.alfenas@gmail.com</p>
-        <p> Facebook: facebook.com/grupoconviver</p>
+      <div class="grid" id="contato">
+        <div class="form text">
+          <form>
+            <fieldset>
+              <h2>Contato</h2>
+              <label for="nome">Seu nome</label>
+              <input type="text" id="nome" name="nome" required>
+
+              <label for="email">Seu e-mail</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="assunto">Assunto</label>
+              <input type="text" id="assunto" name="assunto">
+
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem"></textarea>
+
+              <img src="img/icon-mail.png"/>
+
+            </fieldset>
+          </form>
+        </div>
+        <div class="info text">
+          <img id="logo" src="img/logo-conviver.png" alt="logo"/>
+          <p> Rua Antônio Pedro de Oliveira, 1020. <br/>Vila Betânia. Alfenas - MG
+            <br/>(35) 9214 - 8084
+            <br/>conviver.alfenas@gmail.com
+            <br/>facebook.com/grupoconviver</p>
+        </div>
       </div>
     </section>
   </body>

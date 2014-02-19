@@ -30,7 +30,7 @@ header {
   color: #2980b9;
 }
 
-#logo{
+header #logo{
   width:350px;
 }
 
@@ -70,6 +70,10 @@ section.white h2, section.white h3{
   color: #2980b9;
 }
 
+section.image img{
+  height: 550px;
+  width:100%;
+}
 /***************
  *     MENU    *
  ***************/
@@ -79,7 +83,10 @@ section.white h2, section.white h3{
 
 .menu li{
   display: inline;
-  margin-left: 150px;
+}
+
+.menu li + li{
+  margin-left: 350px;
 }
 
 .menu li a{
@@ -118,6 +125,7 @@ em{
   vertical-align: top;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .colaboration-type h3{
@@ -132,6 +140,55 @@ em{
 .colaboration-type + .colaboration-type{
   margin-left: 12%;
 }
+
+.colaboration-type a{
+  color:#2980b9;
+  text-decoration: none;
+}
+
+.info{
+  display:inline-block;
+  width: 55%;
+  vertical-align: top;
+  text-align: right;
+}
+
+.info, .form{
+  margin-top: 30px;
+}
+
+.info #logo{
+  width:200px;
+}
+
+/***************
+ *    FORM     *
+ ***************/
+
+.form{
+  display:inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.form input, .form textarea{
+  border:none;
+  margin-bottom: 10px;
+  display: block;
+  border-bottom: solid 1px #ecf0f1;
+  padding: 8px 8px 2px 0;
+  background-color: #2980b9;
+  width: 100%;
+}
+
+.form textarea{
+  height:70px;
+}
+
+.form img{
+  text-align: right;
+}
+
 
 
 /**********************
