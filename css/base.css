@@ -92,11 +92,12 @@ section.image img{
 }
 
 .menu li{
-  display: inline;
+  display: inline-block;
+  width: 180px;
 }
 
 .menu li + li{
-  margin-left: 350px;
+  margin-left: 310px;
 }
 
 .menu li a{
