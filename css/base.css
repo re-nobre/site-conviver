@@ -36,7 +36,7 @@ header #logo{
 
 .titles{
   font-family: 'LatoOFLBla';
-  width: 522px;
+  margin-top: 10px;
 }
 
 .titles p{font-size: 24px;}
@@ -50,13 +50,18 @@ header #logo{
   line-height: 60px;
   width: 240px;
   margin-top: 30px;
-  margin-left: 900px;
+  margin-left: 400px;
   border-radius: 5px;
+  vertical-align: top;
 }
 
 .btn a{
   text-decoration: none;
   color: #ecf0f1;
+}
+
+.titles, .btn{
+  display: inline-block;
 }
 
 /***************
