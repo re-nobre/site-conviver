@@ -54,6 +54,11 @@ header #logo{
   border-radius: 5px;
 }
 
+.btn a{
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
 /***************
  *   SECTIONS  *
  ***************/
@@ -147,25 +152,47 @@ em{
 }
 
 .info{
-  display:inline-block;
-  width: 55%;
   vertical-align: top;
-  text-align: right;
 }
 
-.info, .form{
-  margin-top: 30px;
+.info #logo, .logo-donation #logo{
+  width:200px;
 }
 
 .info #logo{
-  width:200px;
+  float: right;
 }
+
+.data-caixa{
+  color:#2980b9;
+}
+
+.logo-donation, .text-donation{
+  display: inline-block;
+}
+
+.text-donation{
+  width: 70%;
+}
+
+.logo-donation{
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.logo-donation h1{
+  color: #2980b9;
+}
+
+
+
+
 
 /***************
  *    FORM     *
  ***************/
 
-.form{
+/*.form{
   display:inline-block;
   width: 40%;
   vertical-align: top;
@@ -188,7 +215,7 @@ em{
 .form img{
   text-align: right;
 }
-
+*/
 
 
 /**********************
