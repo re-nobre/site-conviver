@@ -35,7 +35,6 @@ header #logo{
 }
 
 .titles{
-  float: left;
   font-family: 'LatoOFLBla';
 }
 
@@ -46,11 +45,11 @@ header #logo{
   color:#ecf0f1;
   font-size: 20px;
   text-align: center;
-  float: right;
   height: 60px;
   line-height: 60px;
   width: 240px;
   margin-top: 30px;
+  margin-left: 900px;
   border-radius: 5px;
 }
 
@@ -155,12 +154,16 @@ em{
   vertical-align: top;
 }
 
-.info #logo, .logo-donation #logo{
+.info .logo, .logo-donation #logo{
   width:200px;
 }
 
-.info #logo{
-  float: right;
+.info .logo, {
+  margin-left: 900px;
+}
+
+.info .logo, .info .text{
+  display: inline-block;
 }
 
 .data-caixa{
