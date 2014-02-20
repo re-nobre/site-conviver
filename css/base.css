@@ -36,6 +36,7 @@ header #logo{
 
 .titles{
   font-family: 'LatoOFLBla';
+  width: 522px;
 }
 
 .titles p{font-size: 24px;}
@@ -150,21 +151,22 @@ em{
   text-decoration: none;
 }
 
-.info{
-  vertical-align: top;
+
+.info .logo{
+  margin-left: 600px;
 }
 
-.info .logo, .logo-donation #logo{
-  width:200px;
-}
-
-.info .logo, {
-  margin-left: 900px;
+.info .logo img{
+  width:160px;
 }
 
 .info .logo, .info .text{
   display: inline-block;
 }
+
+/******************
+ *    DONATION    *
+ ******************/
 
 .data-caixa{
   color:#2980b9;
@@ -187,7 +189,9 @@ em{
   color: #2980b9;
 }
 
-
+.logo-donation #logo{
+  width:200px;
+}
 
 
 
