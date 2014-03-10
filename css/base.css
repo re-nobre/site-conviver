@@ -22,7 +22,8 @@ p{
  *  HEADER   *
  *************/
 header {
-  background:url(../img/img-net.jpg)no-repeat center center;
+  background:url(../img/header.jpg)no-repeat center center;
+  background-size: cover;
   width: 100%;
   height: 550px;
   padding-top: 10px;
@@ -80,9 +81,11 @@ section.white h2, section.white h3{
   color: #2980b9;
 }
 
-section.image img{
-  height: 550px;
-  width:100%;
+section.image{
+  background: url(../img/banner.jpg)no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
 }
 /***************
  *     MENU    *
@@ -126,8 +129,14 @@ section.image img{
 }
 
 em{
-  color: #2980b9;
   font-weight: bold;
+}
+
+.column{
+  display: inline-block;
+  width:500px;
+  margin-right: 80px;
+  vertical-align: top;
 }
 
 .colaboration-type{
@@ -168,6 +177,25 @@ em{
 
 .info .logo, .info .text{
   display: inline-block;
+}
+
+/******************
+ *     CITACAO    *
+ ******************/
+
+.citacao{
+  color: #ecf0f1;
+  width:400px;
+  margin-top: 50px;
+}
+
+.citacao .phrase{
+  font-size: 55px;
+  font-style: italic;
+}
+
+.citacao .phrase-author{
+  margin-top: 15px;
 }
 
 /******************
