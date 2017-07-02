@@ -56,6 +56,10 @@ header #logo{
   vertical-align: top;
 }
 
+.btn-donation{
+  margin-left: 40px;
+}
+
 .btn a{
   text-decoration: none;
   color: #ecf0f1;
@@ -214,8 +218,12 @@ em{
   width: 70%;
 }
 
+.text-donation p{
+  padding-left: 40px;
+}
+
 .logo-donation{
-  vertical-align: baseline;
+  vertical-align: top;
   text-align: center;
 }
 
